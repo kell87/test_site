@@ -7,6 +7,7 @@
     <title>Main page of kell's site</title> <!-- заголовок вкладки -->
     <meta name="description" content="Информация об авторе и примерами работ"> <!-- описание предоставляемое в поисковой выдаче -->
     <meta name="keywords" content="kell, reviews"> <!-- ключевые слова для индексации роботами -->
+    <link rel="stylesheet" href="./css/menu_style.css">
 </head>
 <body>
     <img src="img/DS_logo.png" width="300" alt="avatar">
@@ -23,14 +24,25 @@
     
     </p>
 
-    <div class="dropdown">
-        <button class="dropbtn">Список обзоров по категориям</button>
-        <div class="dropdown-content">
-            <a href="#">Ссылка 1</a>
-            <a href="#">Ссылка 2</a>
-            <a href="#">Ссылка 3</a>
-        </div>
-    </div>
+    <ul class="top-level-menu">
+        <li>
+            <a href="#">Категории</a>
+            <ul class="second-level-menu">
+                <li><a href="#">Solid State Drive (SSD)</a></li>
+                <li>
+                    <a href="#">New York</a>
+                    <ul class="third-level-menu">
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Book a Meeting</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Seattle</a></li>
+            </ul>
+        </li>
+    </ul>
+    
     <h2>Связаться со мной</h2>
 
     <br>
