@@ -3,10 +3,11 @@
     position: absolute;
     top: 0;
     right: -150px;
-    width: 100%;
+    width: 150px;
     list-style: none;
     padding: 0;
     margin: 0;
+    overflow:auto;
     display: none;
 }
 
