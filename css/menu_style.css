@@ -2,22 +2,32 @@
 {
     position: absolute;
     top: 0;
-    right: -219px;
-    width: 150px;
-    width: intrinsic; /* Safari/WebKit используют нестандартное имя */
-    width: -moz-max-content; /* Firefox/Gecko */
-    width: -webkit-max-content; /* Chrome */
+    right: -299px;
+    max-width: 300px;
+    /* width: intrinsic; Safari/WebKit используют нестандартное имя
+    width: -moz-max-content; Firefox/Gecko
+    width: -webkit-max-content; Chrome */
     list-style: none;
     padding: 0;
     margin: 0;
     display: none;
+/*     word-break: break-word;
+    white-space: normal; */     
+    word-break: keep-all;
+    overflow-wrap: break-word; /*Mozilla */
+   /* word-wrap: break-word; */
+
+
 }
 
 .third-level-menu > li
 {
-    height: 30px;
+/*     height: 30px;
+    max-height: 60px; */
+    min-height: 30px;
     background: #999999;
     padding: 0 10px 0 0;
+    
 }
 .third-level-menu > li:hover { background: #CCCCCC; }
 
@@ -83,11 +93,3 @@
     line-height: 30px;
 }
 .top-level-menu a:hover { color: #000000; }
-
-
-form {
-	width:300px;
-}
-form input, form textarea {
-	width:100%;
-}
