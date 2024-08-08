@@ -37,10 +37,10 @@
     top: 30px;
     left: 0;
     max-width: 320px;
-/*     width: 150px;
-    width: intrinsic; /* Safari/WebKit используют нестандартное имя */
-    width: -moz-max-content; /* Firefox/Gecko */
-    width: -webkit-max-content; /* Chrome */ */
+/*     width: 150px; */
+/*     width: intrinsic;*/ /* Safari/WebKit используют нестандартное имя */ 
+    /*width: -moz-max-content;*/ /* Firefox/Gecko */
+    /*width: -webkit-max-content;*/ /* Chrome */
     list-style: none;
     padding: 0;
     margin: 0;
