@@ -121,7 +121,7 @@
 }
 .social img {
   width: 176px;
-	height: 29px;
+  height: 29px;
   margin-top: 10px;
 }
 .discord a {background: #7289da}
@@ -141,3 +141,4 @@
 .youtube a {background: #c4302b}
 .DNS_Club a {background: #4e4e4e; width: 192px; padding-left: 2px}
 .IXBT_live a {background: #00a86b}
+.DNS_Club2 a {margin: 0 0 0 0;}
