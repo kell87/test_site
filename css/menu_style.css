@@ -119,6 +119,11 @@
 	width: 32px;
 	height: 32px;
 }
+.social img {
+  width: 176px;
+	height: 29px;
+  margin-top: 10px;
+}
 .discord a {background: #7289da}
 .email a {background: #5bc7ff}
 .facebook a {background: #3b5998}
@@ -134,3 +139,4 @@
 .vk a {background: #4a76a8}
 .windows a {background: #125acd}
 .youtube a {background: #c4302b}
+.DNS_Club a {background: #4e4e4e; width: 192px; padding-left: 2px}
